@@ -1,0 +1,54 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+        background: url(pic1.jpg);
+        background-size: cover;
+        background-position: serif;
+        font-family: serif;
+        
+  }
+  
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    width: 320px;
+    height: 420px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #bd2626;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+    color: white;
+  }
+
+  .team {
+
+    padding: 0 16px;
+    color: white;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(245, 241, 241);
+  }
+  
